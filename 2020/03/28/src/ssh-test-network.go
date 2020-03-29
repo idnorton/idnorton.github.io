@@ -45,13 +45,13 @@ func main() {
 }
 
 var Usage = func() {
-    fmt.Fprintf(os.Stderr, "Usage of %s:\n\n", os.Args[0])
-    flag.PrintDefaults()
-    fmt.Println()
-    fmt.Println("Use this command to route subnet ssh via a jumphost in your ssh config:")
-    fmt.Println()
-    fmt.Println("  Match exec \"~/bin/ssh-test-network --cidr=10.0.0.0/8 --host=%n")
-    fmt.Println("    ProxyCommand ssh -q jumpbox.example.com -W %h:%p")
-    fmt.Println("    ForwardAgent yes")
-    fmt.Println()
+  fmt.Fprintf(os.Stderr, "Usage of %s:\n\n", os.Args[0])
+  flag.PrintDefaults()
+  fmt.Println()
+  fmt.Println("Use this command to route subnet ssh via a jumphost in your ssh config:")
+  fmt.Println()
+  fmt.Println("  Match exec \"~/bin/ssh-test-network --cidr=10.0.0.0/8 --host=%n")
+  fmt.Println("    ProxyCommand ssh -q jumpbox.example.com -W %h:%p")
+  fmt.Println("    ForwardAgent yes")
+  fmt.Println()
 }
