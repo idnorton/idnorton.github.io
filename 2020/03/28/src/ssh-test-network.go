@@ -1,10 +1,10 @@
 package main
 
 import (
-	"flag"
-	"fmt"
-	"net"
-	"os"
+  "flag"
+  "fmt"
+  "net"
+  "os"
 )
 
 func main() {
@@ -15,33 +15,33 @@ func main() {
   var cli_host string
 
   // Flags declaration 
-	flag.StringVar(&cli_cidr, "cidr", "", "CIDR network to test against")
-	flag.StringVar(&cli_host, "host", "", "Hostname to test")
+  flag.StringVar(&cli_cidr, "cidr", "", "CIDR network to test against")
+  flag.StringVar(&cli_host, "host", "", "Hostname to test")
   flag.BoolVar(&cli_debug, "debug", false, "Enable debugging")
 
   // Customise usage message
   flag.Usage = Usage
 
   // Parse the provided CLI options
-	flag.Parse()
+  flag.Parse()
 
   // Parse the cidr and resolve the hostname
-	_,cidr,_ := net.ParseCIDR(cli_cidr)
+  _,cidr,_ := net.ParseCIDR(cli_cidr)
   ips,_ := net.LookupIP(cli_host)
 
   // Iterate through all of the IP addresses resolved
-	for _, ip := range ips {
-	  if(cidr.Contains(ip)) {
+  for _, ip := range ips {
+    if(cidr.Contains(ip)) {
 
-			if(cli_debug) { fmt.Println("Hostname resolves", ip) }
+      if(cli_debug) { fmt.Println("Hostname resolves", ip) }
 
       // Matched, exit code 0
-			os.Exit(0)
-	  }
-	}
+      os.Exit(0)
+    }
+  }
 
   // If we got here, we didn't match, exit code 1
-	os.Exit(1)
+  os.Exit(1)
 }
 
 var Usage = func() {
