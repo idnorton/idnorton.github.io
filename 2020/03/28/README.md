@@ -24,7 +24,7 @@ three:
 ```
 Match 10.0.*
     ProxyCommand ssh -q bastion.account-a.example.com -W %h:%p
-  
+
 Match 10.1.*
     ProxyCommand ssh -q bastion.account-b.example.com -W %h:%p
 
@@ -36,9 +36,9 @@ However that doesn't work for the last two. So how do we do this?
 The answer is that we cannot achieve this with the a standard
 configuration options.
 
-This is something that's had questions online https://serverfault.com/questions/803902/
+This is something that's had questions online [https://serverfault.com/questions/803902/](https://serverfault.com/questions/803902/)
 
-There's even a feature request http://bugzilla.mindrot.org/show_bug.cgi?id=1169
+There's even a feature request [http://bugzilla.mindrot.org/show_bug.cgi?id=1169](http://bugzilla.mindrot.org/show_bug.cgi?id=1169)
 
 There isn't currently a way to do this, however there is a neat feature in
 `Match exec` which allows us to run a command and use the exit codes:
@@ -48,7 +48,7 @@ The exec keyword executes the specified command under the user's shell.  If the
 command returns a zero exit status then the condition is considered true.
 ```
 
-Docs at https://linux.die.net/man/5/ssh_config
+Docs at [https://linux.die.net/man/5/ssh_config](https://linux.die.net/man/5/ssh_config)
 
 Having written some GoLang to do the network matching, we can now use this syntax:
 
