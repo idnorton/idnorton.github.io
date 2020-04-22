@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.8.5">Jekyll</generator>
 <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-<updated>2020-04-22T20:38:18+00:00</updated>
+<updated>2020-04-22T21:21:50+00:00</updated>
 <id>http://localhost:4000/</id>
 <subtitle>Website and blog</subtitle>
 <entry>
@@ -127,6 +127,73 @@ Use this command to route subnet ssh via a jumphost in your ssh config:
 &lt;/ul&gt;
 </content>
 <summary>SSH ProxyCommand for subnets</summary>
+</entry>
+<entry>
+<title>Controlling your dust extraction with a blast gate</title>
+<link href="http://localhost:4000/2017/03/15/Blast-gates.html" rel="alternate" type="text/html" title="Controlling your dust extraction with a blast gate" />
+<published>2017-03-15T00:00:00+00:00</published>
+<updated>2017-03-15T00:00:00+00:00</updated>
+<id>http://localhost:4000/2017/03/15/Blast-gates</id>
+<content type="html" xml:base="http://localhost:4000/2017/03/15/Blast-gates.html">&lt;h1 id=&quot;controlling-your-dust-extraction-with-a-blast-gate&quot;&gt;Controlling your dust extraction with a blast gate&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/2017-02-01-22.01.25-672x372.jpg&quot; alt=&quot;Large shot of MDF laser cut blast gate for extraction control&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Blast gates for controlling air flow are not a new thing but buying them off the shelf can be an expensive shopping experience, plus they’re only available in fixed sizes. I’m using 110mm UK drain pipe which there certainly isn’t a suitable gate for.&lt;/p&gt;
+
+&lt;p&gt;Clearly any self respecting woodworker has the skills to be able to build their own. I took some inspiration from &lt;a href=&quot;https://www.youtube.com/watch?v=1eM-6pUmEQ8&amp;quot;&quot;&gt;Jay Bates&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=bHr-V1J_NOw&quot;&gt;Marius Hornberger&lt;/a&gt; both of whom have brilliant YouTube channels that you should subscribe to.&lt;/p&gt;
+
+&lt;p&gt;But this is a hackspace blog post, so clearly that’d be a bit too straight forward… how about if we laser cut them?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/blast-gate-on-laser-bed-300x158.png&quot; alt=&quot;Blast gate design sitting on laser cutter bed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s heading more in the right direction. That’s a pretty nice design as a starting point. I ended up having to tweak the design to account for a slightly different diameter pipe fitting (mainly because I forgot to measure it before going to the hackspace and guessed wrong). But neat trick if you happen to do this, cut another one the right size and then when it’s finished very carefully lift it out of the cutter without moving the board you cut it out of, now drop your badly sized one in the hole and re-cut. Obviously that only works if it’s too small, or you have a magic laser that glues bits back on… no, wait, that’s a 3d printer.&lt;/p&gt;
+
+&lt;p&gt;So our &lt;a href=&quot;https://github.com/idnorton/hardware-designs/blob/master/blast-gate/blast-gate.scad&quot;&gt;Blast Gate Mark 1&lt;/a&gt; is available over on GitHub which looks a bit like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/blast-gate-mk1-300x215.png&quot; alt=&quot;Blast gate design OpenSCAD output&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;parts-list&quot;&gt;Parts list:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;10 x M5 x 25mm bolts &lt;a href=&quot;http://www.ebay.co.uk/itm/221307549544&quot;&gt;http://www.ebay.co.uk/itm/221307549544&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;6 x M5 x 14mm bolts &lt;a href=&quot;http://www.ebay.co.uk/itm/221307549544&quot;&gt;http://www.ebay.co.uk/itm/221307549544&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;16 x M5 nylock nuts &lt;a href=&quot;http://www.ebay.co.uk/itm/320901621860&quot;&gt;http://www.ebay.co.uk/itm/320901621860&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;42 x M5 washer &lt;a href=&quot;http://www.ebay.co.uk/itm/221073171961&quot;&gt;http://www.ebay.co.uk/itm/221073171961&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;1 x A2 (600mm x 400mm) 3mm laser safe MDF &lt;a href=&quot;https://www.kitronik.co.uk/3211-3mm-laser-compatible-mdf-600mm-x-400mm-sheet.html&quot;&gt;https://www.kitronik.co.uk/3211-3mm-laser-compatible-mdf-600mm-x-400mm-sheet.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;1 x FloPlast SP124 Single Pipe Coupler Black 110mm (http://www.screwfix.com/p/floplast-sp124-single-pipe-coupler-black-110mm/62966)[http://www.screwfix.com/p/floplast-sp124-single-pipe-coupler-black-110mm/62966]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You’ll obviously need a laser cutter, we always recommend those awesome guys at &lt;a href=&quot;http://www.justaddsharks.co.uk/&quot;&gt;Just Add Sharks&lt;/a&gt; because they rock!&lt;/p&gt;
+
+&lt;p&gt;Assembly notes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The shorter bolts fix the handles to the gate&lt;/li&gt;
+  &lt;li&gt;Squares with the larger hole go on the outside&lt;/li&gt;
+  &lt;li&gt;The tricky bit is putting all your gate bolts in, adding the side strips, adding a washer and then adding your second set of gate pieces&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/blast-gate-washers-300x265.png&quot; alt=&quot;Blast gate washers side on view&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is important, don’t over tighten this or your gate won’t side. I recommend the use of a cordless drill with torque setting that you can wind right down to low. As long as you can’t rotate them by hand, they are tight enough.&lt;/p&gt;
+
+&lt;p&gt;Having assembled your gates, you should have something that looks like the header picture above. Now we need to cut the pipe fitting in half and attach it to the gate. Safely cutting the plastic coupler in half without a big enough lathe is a hard thing to achieve, so having had a think about how to do this I came up with something that will undoubtedly make some people twitch like crazy:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/2017-03-15-15.28.38-1-203x300.jpg&quot; alt=&quot;Cutting the pipe coupling using the wrong tools&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s a Dremel speedclic plastic cutting wheel on an arbor, in a pin vice, in a pillar drill, yes. I did warn you. A safer way to achieve this would be to use a lathe if you have one big enough (the pipe couplng for this goes around the chuck of my small lathe). This technique gives accuracy whilst being the safest I could think of with the equipment at hand.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/2017-03-15-15.37.10-300x169.jpg&quot; alt=&quot;Pipe coupling cut in half&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I cut mine to have the tabs on the end with the seal as that’s the one I plan to stick an extraction hose end into.&lt;/p&gt;
+
+&lt;p&gt;Once the coupling is cut, glue it in place on either side of the gate. I used &lt;a href=&quot;http://www.screwfix.com/p/everbuild-solvented-grab-adhesive-350ml/6048h&quot;&gt;Screwfix’s Pink Grip&lt;/a&gt; which hasn’t quite set right now but looks like it’s going to do the right thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2017-03-15/blast-gate-mk1-1-220x300.png&quot; alt=&quot;Finished and assembled blast gate&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So there we have it, Mark 1 blast gate. Stay tuned for Mark 2 which has electronics to control your extractor.&lt;/p&gt;
+</content>
+<summary>Controlling your dust extraction with a blast gate</summary>
 </entry>
 <entry>
 <title>Presence sensors again!</title>
