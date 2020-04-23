@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Terraforming your AWS parent account"
+title:  "Terraforming your AWS parent account - bootstrapping"
 ---
 In the modern AWS world, it's not uncommon to have multiple AWS accounts
 under a parent billing account for different environments such as dev, qa
