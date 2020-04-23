@@ -2,12 +2,9 @@
 layout: default
 title:  "Presence sensors revisited"
 ---
-
-# Presence sensors revisited
+In my previous post I talked about 24v presence sensors for Loxone home automation.
 
 ![](/assets/2016-09-10/2016-09-10-17.49.45-1038x576.jpg)
-
-In my previous post I talked about 24v presence sensors for Loxone home automation:
 
 ![](/assets/2016-09-10/Previous_post_tweet.png)
 

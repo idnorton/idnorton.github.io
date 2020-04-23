@@ -2,9 +2,6 @@
 layout: default
 title:  "SSH ProxyCommand for subnets"
 ---
-
-# SSH ProxyCommand for subnets
-
 It's common in modern cloud environments to prevent ssh access to hosts
 within the environment and only allow access to a single well maintained
 bastion host with suitable protections against attack.

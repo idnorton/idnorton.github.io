@@ -2,12 +2,9 @@
 layout: default
 title:  "Controlling your dust extraction with a blast gate"
 ---
-
-# Controlling your dust extraction with a blast gate
+Blast gates for controlling air flow are not a new thing but buying them off the shelf can be an expensive shopping experience, plus they’re only available in fixed sizes. I’m using 110mm UK drain pipe which there certainly isn’t a suitable gate for.
 
 ![Large shot of MDF laser cut blast gate for extraction control](/assets/2017-03-15/2017-02-01-22.01.25-672x372.jpg)
-
-Blast gates for controlling air flow are not a new thing but buying them off the shelf can be an expensive shopping experience, plus they’re only available in fixed sizes. I’m using 110mm UK drain pipe which there certainly isn’t a suitable gate for.
 
 Clearly any self respecting woodworker has the skills to be able to build their own. I took some inspiration from [Jay Bates](https://www.youtube.com/watch?v=1eM-6pUmEQ8") and [Marius Hornberger](https://www.youtube.com/watch?v=bHr-V1J_NOw) both of whom have brilliant YouTube channels that you should subscribe to.
 
