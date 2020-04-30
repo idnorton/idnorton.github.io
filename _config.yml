@@ -12,6 +12,26 @@ url: "https://idnorton.github.io" # the base hostname & protocol for your site, 
 twitter_username: idnorton
 github_username:  idnorton
 
+# URLs
+contact_urls:
+  twitter:
+    url: "https://twitter.com/idnorton"
+    label: "Twitter"
+    icon: "twitter-square"
+    username: "@idnorton"
+  linkedin:
+    url: "https://www.linkedin.com/in/idnorton/"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  github:
+    url: "https://github.com/idnorton/"
+    label: "GitHub"
+    icon: "github-square"
+  feed:
+    url: "/feed.xml"
+    label: "RSS Feed"
+    icon: "rss-square"
+
 # Build settings
 theme: jekyll-theme-architect
 plugins:
