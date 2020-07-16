@@ -94,7 +94,7 @@ You'll note from the second photograph above that I've cut the strip quite close
 
 The controllers are capable of driving 6A maximum, so I'm assuming that's 2A per colour.  They will happily drive a 5m length so we'll need to use two controllers with 4m of strip attached to each controller.  A nice convenient cabling for this was again suggested by [Bob 'thinkl33t'' Clough](http://thinkl33t.co.uk/), Cat5 cable.  A damn fine idea that man!  Once again I e-bayed up the wrong thing... kind of... **facepalm**
 
-So, external grade Cat5 can be bought for about Â£45 from e-bay for a 305m box.  Not a bad price.  The problem was what I ordered was solid core cable and not stranded, designed for punch down to face plates and patch panels.  It's not ideal for soldering, but onwards!  We push the cable up the back of the strip:
+So, external grade Cat5 can be bought for about £45 from e-bay for a 305m box.  Not a bad price.  The problem was what I ordered was solid core cable and not stranded, designed for punch down to face plates and patch panels.  It's not ideal for soldering, but onwards!  We push the cable up the back of the strip:
 
 ![Cable insertion #1](/assets/2015-05-10/cable-insertion1.jpg)
 ![Cable insertion #2](/assets/2015-05-10/cable-insertion2.jpg)
