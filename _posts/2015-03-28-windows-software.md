@@ -43,11 +43,11 @@ Consulting the documentation didn't seem to give a clear indication on how to do
 
 So we now have a working light switch! Huzzah! What else do we need to know? This is the point that I started looking at the [Loxone UK Youtube channel](https://www.youtube.com/user/LoxoneVideoENU) starting with the 'Loxone Config for Beginners' series of videos:
 
-<iframe src="//www.youtube.com/embed/5WAwpFNq-t0" allowfullscreen frameborder="0" height="281" width="500">
+<iframe src="//www.youtube.com/embed/5WAwpFNq-t0" allowfullscreen frameborder="0" height="281" width="500"></iframe>
 
 Part two is what we've configured above and the rest of the series talks through some of the things I've hinted at. The very last video suggests using a 'Lighting controller' rather than the simple example using a 'Push-button' component. There's more detail on that in this video:
 
-<iframe src="//www.youtube.com/embed/fgjXh-mVs_Q" allowfullscreen frameborder="0" height="281" width="500">
+<iframe src="//www.youtube.com/embed/fgjXh-mVs_Q" allowfullscreen frameborder="0" height="281" width="500"></iframe>
 
 So my advice is take the time to watch the videos as it will save you time in trying to work it out on your own.My approach has been:
 
