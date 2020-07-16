@@ -11,7 +11,7 @@ RGB LED light strips that can be placed along the garden and have their colour c
 
 As arbitrary decisions go, I'm choosing to make eight of these.
 
-### Buying RGB LED strip
+## Buying RGB LED strip
 
 It's simple to buy RGB LED strip, right?  Actually, not so much.  It took me three attempts.  The first two both met with the same problem, these were:
 
@@ -28,7 +28,7 @@ N.B. this wasn't the waterproof type!  The next section explains why.
 
 Not all was lost though as the first one of these I ordered came with a neat infra red control box!  That'll do nicely for control.  This is the kind of things I'm talking about.
 
-### Plastic tubes
+## Plastic tubes
 
 So having ordered the wrong LED strip, taken the measurements off the item, I ordered some 10mm outer and 8mm inner diameter acrylic tube.  The 3528 LED strip was 8mm wide and the waterproof style with a coating on it.
 
@@ -44,7 +44,7 @@ I had a little bit of an experiment with trying to frost the plastic with sandpa
 
 [Bob 'thinkl33t' Clough](http://thinkl33t.co.uk/) of the [Hackspace Manchester](http://www.hacman.org.uk/) had an issue with his spice grinder at home frosting the plastic on using cloves so he suggested this might be another approach.  Time didn't let me test this theory.
 
-### Sealing the tubes
+## Sealing the tubes
 
 So having bought the right strip, and the right tubes now I need to seal the strip in the tube.  Various theories and ideas on how to do this crossed my mind, but I eventually settled on a simple solution.  B&amp;Q sell 15mm compression pipe fittings:
 
@@ -90,7 +90,7 @@ You'll note from the second photograph above that I've cut the strip quite close
 ![Inserting the strip #1](/assets/2015-05-10/strip-insertion1.jpg)
 ![Inserting the strip #2](/assets/2015-05-10/strip-insertion2.jpg)
 
-### Connecting to the LED strip
+## Connecting to the LED strip
 
 The controllers are capable of driving 6A maximum, so I'm assuming that's 2A per colour.  They will happily drive a 5m length so we'll need to use two controllers with 4m of strip attached to each controller.  A nice convenient cabling for this was again suggested by [Bob 'thinkl33t'' Clough](http://thinkl33t.co.uk/), Cat5 cable.  A damn fine idea that man!  Once again I e-bayed up the wrong thing... kind of... **facepalm**
 
