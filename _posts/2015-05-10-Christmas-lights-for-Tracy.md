@@ -1,9 +1,8 @@
 ---
 layout: default
-title: "RGB garden lights for Christmas!"
----
-## What do I buy my sister for Christmas?
+title: "What do I buy my sister for Christmas?"
 
+---
 So I'm always a bit stuck for what to get people for presents for birthdays, Christmas, Yule or whatever.  This year I came up with an idea of what to get my sister Tracy for Christmas.  Some garden lights, but not just ordinary garden lights, RGB ones!
 
 And so the idea began.
