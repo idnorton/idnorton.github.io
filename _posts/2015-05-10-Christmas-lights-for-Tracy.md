@@ -48,47 +48,47 @@ I had a little bit of an experiment with trying to frost the plastic with sandpa
 
 So having bought the right strip, and the right tubes now I need to seal the strip in the tube.  Various theories and ideas on how to do this crossed my mind, but I eventually settled on a simple solution.  B&amp;Q sell 15mm compression pipe fittings:
 
-![Pipe coupling #1](/assets/2015-05-10/gpipe-coupling1.jpg)
-![Pipe cap #1](/assets/2015-05-10/gpipe-cap1.jpg)
+![Pipe coupling #1](/assets/2015-05-10/pipe-coupling1.jpg)
+![Pipe cap #1](/assets/2015-05-10/pipe-cap1.jpg)
 
 The problem is that these are 15mm and our pipe is 16mm so we need to make some modifications to make this work.  First, we take the coupling apart:
 
-![Pipe coupling #2](/assets/2015-05-10/gpipe-coupling2.jpg)
+![Pipe coupling #2](/assets/2015-05-10/pipe-coupling2.jpg)
 
 Dispose of some of the bits as we don't need them:
 
-![Pipe coupling #3](/assets/2015-05-10/gpipe-coupling3.jpg)
+![Pipe coupling #3](/assets/2015-05-10/pipe-coupling3.jpg)
 
 Next thing we need to do is to expand the hole in one of the caps and one end of the pipe coupler.  I did this with the lathe at [Hackspace Manchester](http://www.hacman.org.uk/):
 
-![Pipe coupling #6](/assets/2015-05-10/gpipe-coupling6.jpg)
+![Pipe coupling #6](/assets/2015-05-10/pipe-coupling6.jpg)
 
 We need to turn down the cable gland so that it will fit into the end of the coupling that we didn't make bigger:
 
-![Cable gland #1](/assets/2015-05-10/gcable-gland1.jpg)
-![Cable gland #2](/assets/2015-05-10/gcable-gland2.jpg)
-![Cable gland #3](/assets/2015-05-10/gcable-gland3.jpg)
-![Cable gland #4](/assets/2015-05-10/gcable-gland4.jpg)
+![Cable gland #1](/assets/2015-05-10/cable-gland1.jpg)
+![Cable gland #2](/assets/2015-05-10/cable-gland2.jpg)
+![Cable gland #3](/assets/2015-05-10/cable-gland3.jpg)
+![Cable gland #4](/assets/2015-05-10/cable-gland4.jpg)
 
 Same for the cap, expand the hole and the nut so now we should be able to attach these to the ends of the pipe:
 
-![Pipe coupling #7](/assets/2015-05-10/gpipe-coupling7.jpg)
-![Pipe cap #2](/assets/2015-05-10/gpipe-cap2.jpg)
+![Pipe coupling #7](/assets/2015-05-10/pipe-coupling7.jpg)
+![Pipe cap #2](/assets/2015-05-10/pipe-cap2.jpg)
 
 Now we can measure the strip:
 
-![Measuring the strip #1](/assets/2015-05-10/gmeasuring-led-strip1.jpg)
-![Measuring the strip #2](/assets/2015-05-10/gmeasuring-led-strip2.jpg)
+![Measuring the strip #1](/assets/2015-05-10/measuring-led-strip1.jpg)
+![Measuring the strip #2](/assets/2015-05-10/measuring-led-strip2.jpg)
 
 And cut it:
 
-![Cutting the strip #1](/assets/2015-05-10/gcutting-led-strip1.jpg)
-![Cutting the strip #2](/assets/2015-05-10/gcutting-led-strip2.jpg)
+![Cutting the strip #1](/assets/2015-05-10/cutting-led-strip1.jpg)
+![Cutting the strip #2](/assets/2015-05-10/cutting-led-strip2.jpg)
 
 You'll note from the second photograph above that I've cut the strip quite close to one end of the exposed copper, that's to make the next section easier.  Now we need to push the strip into the tubes with the exposed contacts going to the end with the cap:
 
-![Inserting the strip #1](/assets/2015-05-10/gstrip-insertion1.jpg)
-![Inserting the strip #2](/assets/2015-05-10/gstrip-insertion2.jpg)
+![Inserting the strip #1](/assets/2015-05-10/strip-insertion1.jpg)
+![Inserting the strip #2](/assets/2015-05-10/strip-insertion2.jpg)
 
 ### Connecting to the LED strip
 
@@ -96,24 +96,24 @@ The controllers are capable of driving 6A maximum, so I'm assuming that's 2A per
 
 So, external grade Cat5 can be bought for about Â£45 from e-bay for a 305m box.  Not a bad price.  The problem was what I ordered was solid core cable and not stranded, designed for punch down to face plates and patch panels.  It's not ideal for soldering, but onwards!  We push the cable up the back of the strip:
 
-![Cable insertion #1](/assets/2015-05-10/gcable-insertion1.jpg)
-![Cable insertion #2](/assets/2015-05-10/gcable-insertion2.jpg)
+![Cable insertion #1](/assets/2015-05-10/cable-insertion1.jpg)
+![Cable insertion #2](/assets/2015-05-10/cable-insertion2.jpg)
 
 I needed to connect it.  I recently purchased a selection of boot lace ferrules from e-bay for a different project, so I crimped the ends of the Cat5 into the ferrules:
 
-![Cable termination #1](/assets/2015-05-10/gcable1.jpg)
+![Cable termination #1](/assets/2015-05-10/cable1.jpg)
 
 Now that we've got those crimped into some ferrules we can coat the ferrules with resin, tin them, tin the strip end and then solder them together:
 
-![Cable termination #2](/assets/2015-05-10/gcable2.jpg)
+![Cable termination #2](/assets/2015-05-10/cable2.jpg)
 
 Next we assemble the cable gland at the bottom:
 
-![Cable gland #5](/assets/2015-05-10/gcable-gland5.jpg)
-![Cable gland #6](/assets/2015-05-10/gcable-gland6.jpg)
+![Cable gland #5](/assets/2015-05-10/cable-gland5.jpg)
+![Cable gland #6](/assets/2015-05-10/cable-gland6.jpg)
 
 All screwed together:
 
-![Cable gland #7](/assets/2015-05-10/gcable-gland7.jpg)
+![Cable gland #7](/assets/2015-05-10/cable-gland7.jpg)
 
 Next time, I'll talk about power supplies and wiring it all together.
