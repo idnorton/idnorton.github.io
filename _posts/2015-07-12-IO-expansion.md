@@ -65,10 +65,10 @@ My annoyance with these modules is that they're 5v which is just a pain as it me
 
 In an ideal world I'd find a nice 24v four relay board that will do the job without need of additional parts, I found one on ebay that looked about right so I ordered a couple for test. They took a while to arrive from China but I decided it was worth a punt to see if it would work out.  The jury is still out on this, the boards themselves look fine in terms of track spacing and isolation:
 
-![](https://cdn.hackaday.io/images/2740631436715107136.jpg)
-![](https://cdn.hackaday.io/images/2325281436715132206.jpg)
-![](https://cdn.hackaday.io/images/8520411436715153449.jpg)
-![](https://cdn.hackaday.io/images/3725581436715187529.jpg)
+![Rear of two relay module PCB](/assets/2015-07-12/relay-modules2.jpg)
+![Zoomed rear of PCB showing relay isolation](/assets/2015-07-12/relay-module1.jpg)
+![Terminals front and rear of PCB](/assets/2015-07-12/relay-modules3.jpg)
+![Top of two relay module PCB](/assets/2015-07-12/relay-modules1.jpg)
 
 Testing gives me similar data to the Pololu modules.
 
@@ -85,11 +85,11 @@ Here are the figures:
 
 Unless the modules are designed for DIN rail use, your next problem is how to mount them. I'm a member of the [Lancaster And Morecambe Makers](http://lamm.hackspace.org.uk/) and we have 3d printers, so I asked Tom to design me a holder for the four Pololu modules to DIN rail mount them. I've been poking him to write a blog post on it for a while but he's not gotten to it yet so I'll have to post for that when he gets his finger out :)
 
-![](https://cdn.hackaday.io/images/9830951436715221616.jpg)
+![3d printed relay module holders](/assets/2015-07-12/module-holders.jpg)
 
 The top centre part is a DIN rail clip, the others are various iterations of single module holders.
 
-![](https://cdn.hackaday.io/images/2002001436715245782.jpg)
+![Relay modules installed in 3d printed holders and wired up](/assets/2015-07-12/relay-modules-installed.jpg)
 
 And that's the four module holder with the relays installed and a DIN rail clip mounted at either end.
 
@@ -97,26 +97,26 @@ And that's the four module holder with the relays installed and a DIN rail clip 
 
 Having checked the relay modules won't blow up your Miniserver or Extension, we've wired it all up and we're ready to program it. Lighting controller, input, output and we're done!
 
-![](https://cdn.hackaday.io/images/7449481436715265155.png)
+![](/assets/2015-07-12/lighting-controller.png)
 
 Actually, not so much. I started to get a headache at this point as I just couldn't work out why this didn't work as expected. When I originally mentioned that I was using Linux, I mentioned that there was a gotcha that affects the lighting controller block..... that's what we're seeing here. If I fish out a Windows machine and open the configuration, I can double-click the block and get more information on things like Outputs, Scenes and Favourites. Here's the outputs tab for you to guess at the issue:
 
-![](https://cdn.hackaday.io/images/4289431436715277375.png)
+![](/assets/2015-07-12/edit-lighting-controller.png)
 
 The issue is that if you connect a lighting controller block to a digital output, it knows that the digital output is a 'Switch and can only be in one of two states. If you connect it to an analogue output, then it assumes that the thing you're connecting it to is a 'Dimmer 1-10V'. For this to work we need to change that to be 'Switch' or the thing will behave really oddly and you'll spend a couple of hours trying to work out what the hell is wrong. I encourage you to take a look at the Testing area of Loxone Config and specifically the 'Start Liveview using the current file', had I done this sooner I would have seen the voltage on the output gradually rising while I was pressing the button rather than going straight from zero to five volts.
 
-![](https://cdn.hackaday.io/images/1346241436715289505.png)
-![](https://cdn.hackaday.io/images/3427651436715299861.png)
+![Output defaults 'Dimmer 1-10v'](/assets/2015-07-12/lighting-output-defaults.png)
+![Output set to 'Switch'](/assets/2015-07-12/lighting-output-changed.png)
 
-Five volts? But the analogue input goes up to ten! Yes, and if you allow the analogue output voltage to go up to ten, the bloody 5v relay module brns out in our test environment on the bench. Let's not do that, replacing hardware is expensive. To limit that to five volts we need to change configuration on each of the analogue outputs:
+Five volts? But the analogue input goes up to ten! Yes, and if you allow the analogue output voltage to go up to ten, the bloody 5v relay module burns out in our test environment on the bench. Let's not do that, replacing hardware is expensive. To limit that to five volts we need to change configuration on each of the analogue outputs:
 
 Here's the defaults for an output:
 
-![](https://cdn.hackaday.io/images/8102541436715313061.png)
+![Voltage output options set to defaults](/assets/2015-07-12/output-options1.png)
 
 And here's our changed one:
 
-![](https://cdn.hackaday.io/images/9314991436715324881.png)
+![Voltage output options set for 5v output](/assets/2015-07-12/output-options2.png)
 
 Specifically you're looking to change the following:
 
