@@ -18,7 +18,7 @@ Anyway, when we got them back to the hackspace we found:
 
 We worked out which were easy fixes and then I divvied them up based on who'd asked first. People who asked early got ones that were working or that we managed to quickly repair without too many issues. There were a mixture of one of the displays not working to one side of the PSU not working.
 
-Being the person who drove to Leeds to fetch them, bought them and then had the fun of extracting cash from people I put myself aside a fully working dual variable with the 5v supply. Boxes were labelled up and until today I didn't get to look at it again - house moves, refurbishments and life have gotten in the way of fun things recently. Today is the very first day since moving over two years ago that I've set up my bench, dragged the laptop out to write up some home automation stuff and had need of the PSU (see [IO Expansion](https://hackaday.io/project/4857-commercial-home-automation/log/20852-squeezing-a-quart-into-a-pint-pot) for the post in question).
+Being the person who drove to Leeds to fetch them, bought them and then had the fun of extracting cash from people I put myself aside a fully working dual variable with the 5v supply. Boxes were labelled up and until today I didn't get to look at it again - house moves, refurbishments and life have gotten in the way of fun things recently. Today is the very first day since moving over two years ago that I've set up my bench, dragged the laptop out to write up some home automation stuff and had need of the PSU (see [IO Expansion](https://idnorton.github.io/2015/07/12/IO-expansion.html) for the post in question).
 
 So, getting back to the point......  :-D
 

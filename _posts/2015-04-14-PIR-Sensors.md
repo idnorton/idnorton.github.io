@@ -2,7 +2,7 @@
 layout: default
 title:  "Is there anybody there? Click once for yes!"
 ---
-So following on from my [previous post about switches](https://hackaday.io/project/4857-commercial-home-automation/log/16130-switches-are-simple-right), let’s talk about Passive Infra Red (PIR) sensors.
+So following on from my [previous post about switches](https://idnorton.github.io/2015/04/05/switches.html), let’s talk about Passive Infra Red (PIR) sensors.
 
 Previously posted on [LAMM Space](https://lamm.space/2015/04/14/is-there-anybody-there-click-once-for-yes/)
 

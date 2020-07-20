@@ -8,7 +8,7 @@ In my previous post I talked about 24v presence sensors for Loxone home automati
 
 ![](/assets/2016-09-10/Previous_post_tweet.png)
 
-Shout out to Malc Crook ([https://hackaday.io/mal8837">https://hackaday.io/mal8837](https://hackaday.io/mal8837">https://hackaday.io/mal8837)) and Adam ([https://hackaday.io/Bobbsta10](>https://hackaday.io/Bobbsta10)) who both contacted me to say that the PIR linked to in the original post is no longer the one you get when you order the same item from the same seller :-)
+Shout out to [Malc Crook](https://hackaday.io/mal8837">https://hackaday.io/mal8837) and [Adam](>https://hackaday.io/Bobbsta10)) who both contacted me to say that the PIR linked to in the original post is no longer the one you get when you order the same item from the same seller :-)
 
 Fear not, for I have hacked the new one this evening and it’s pretty straight forward :-)
 
