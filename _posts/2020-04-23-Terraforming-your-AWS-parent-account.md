@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 title:  "Terraforming your AWS parent account - bootstrapping"
 ---
 In the modern AWS world, it's not uncommon to have multiple AWS accounts
