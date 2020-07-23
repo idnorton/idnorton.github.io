@@ -32,6 +32,11 @@ contact_urls:
     label: "RSS Feed"
     icon: "rss-square"
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "idnorton"
+
 # Build settings
 theme: jekyll-theme-architect
 plugins:
