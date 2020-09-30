@@ -3,7 +3,7 @@ layout: default
 title: Simulating network failure with iptables
 
 ---
-This post was originally posted on the [Adzuna Engineering Blog](https://medium.com/adzuna-engineering/simulating-network-failure-with-iptables-7bd24c8a9fb3).
+This post was originally appeared on the [Adzuna Engineering Blog](https://medium.com/adzuna-engineering/simulating-network-failure-with-iptables-7bd24c8a9fb3).
 
 There’s many situations where it’s desirable to have a network failure
 during testing, however this can sometimes seem like an impossible thing
