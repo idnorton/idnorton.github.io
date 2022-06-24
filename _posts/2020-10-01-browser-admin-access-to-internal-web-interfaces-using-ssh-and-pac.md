@@ -3,9 +3,9 @@ layout: default
 title: Browser admin access to internal web interfaces using SSH and PAC
 
 ---
-This post was originally appeared on the [Adzuna Engineering Blog](https://medium.com/adzuna-engineering/browser-admin-access-to-internal-web-interfaces-using-ssh-and-pac-8ea201883e51).
-
 Throughout the career of a devops engineer, you’ll encounter many and varied web interfaces that need to be accessed in a secure way by a restricted number of people to stop Bad Things Happening.
+
+This post was originally appeared on the [Adzuna Engineering Blog](https://medium.com/adzuna-engineering/browser-admin-access-to-internal-web-interfaces-using-ssh-and-pac-8ea201883e51).
 
 SSH has the ability to act as a SOCKS5 proxy to enable connections to a
 secure environment:
