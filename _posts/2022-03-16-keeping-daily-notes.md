@@ -1,7 +1,9 @@
 ---
 layout: default
-title: I like to keep a file of notes per day which are generally very random unordered and unstructured chunks of information, commands or code that I’m working with on that given day and occasionally downloaded files.
+title: "Keeping daily notes"
 ---
+I like to keep a file of notes per day which are generally very random unordered and unstructured chunks of information, commands or code that I’m working with on that given day and occasionally downloaded files.
+
 This post was originally appeared on the [Adzuna Engineering Blog](https://medium.com/@adzuna_idnorton/keeping-daily-notes-f2e83b0d41d5).
 
 There’s three moving parts to this. The `mkdaily` script creates a dated directory structure for us and then touches the notes file:
