@@ -2,7 +2,7 @@
 layout: default
 title:  "What's in my toolbag?"
 ---
-Picking tools is a tricky expensive task and a few years ago I lost my toolbag which was a pretty devestating thing. So here's my reconstructed toolbag built up over many years since that loss and including many things that weren't in the original and excluding some that were (I don't think the 3.5" floppy cleaner would get much use these days).
+Picking tools is a tricky expensive task and a few years ago I lost my toolbag which was a pretty devastating thing. So here's my reconstructed toolbag built up over many years since that loss and including many things that weren't in the original and excluding some that were (I don't think the 3.5" floppy cleaner would get much use these days).
 
 ## The Bag
 
